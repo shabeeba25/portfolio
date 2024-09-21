@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color:blue;
+}
+h2{
+    text-align: center;
+}
+#parent{
+    margin: 0 auto;
+    border: 3px solid whitesmoke ;
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    background-color: white;
+}
+body{
+    background-color: rgb(225, 234, 239);
+}
+.one{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+select{
+    width:160px;
+    height: 30px;
+}
+button{
+    width:155px;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+}
+.abcd{
+    font-size:small;
+}
