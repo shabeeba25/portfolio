@@ -6,7 +6,16 @@
     <title>My webpage</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <script src="main.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("5l3S76-o_MHMSdsQN");
+       })();
+    </script>
 </head>
 <body>
     <div class="main">
@@ -116,7 +125,7 @@
                 
                 </form>
           </div>
-          <br><br><button class="message" onclick="">send </button>
+          <br><br><button class="message" onclick="sendMail()">send </button>
         </div>
    </div>
    
